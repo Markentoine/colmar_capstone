@@ -155,3 +155,25 @@ button span{
 .infobox p, a{
 	font-size: 1.5rem;
 }
+
+.exhibit{
+	text-align: center;
+	padding: 2rem 0;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+
+.jumbotron.four .container div{
+	padding: 1.5rem 0 2rem 0;
+}
+
+.jumbotron.four .container h3{
+	padding-bottom: 0.5rem;
+}
+
+.side.four{
+	justify-content: flex-start;
+}
