@@ -16,6 +16,15 @@ h3{
 	font-size: 2rem;
 }
 
+.container{
+	height: auto;
+	overflow: hidden;
+}
+
+.infos{
+	margin: 1rem 0 1.5rem 1rem;
+}
+
 header{
 	display: flex;
 	align-items: center;
@@ -156,6 +165,46 @@ button span{
 	font-size: 1.5rem;
 }
 
+/*Courses part */
+
+.courses h1{
+	padding: 2rem 0;
+	text-align: center;
+}
+
+.courses_display{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 4rem;
+}
+
+.row{
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.row.one{
+	margin-bottom: 1rem;
+}
+
+.row.two{
+	margin-top: 1rem;
+}
+
+.a_course{
+	min-width: 30%;
+	max-width: 30%;
+}
+
+.a_course img{
+	width: 100%
+}
+
+.infos h4, p{
+	font-size: 1.5rem;
+	padding: 0.5rem 0;
+}
 /*Styling the Thesis part */
 
 .exhibit{
