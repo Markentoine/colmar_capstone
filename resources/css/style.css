@@ -1,5 +1,5 @@
 html{
-  background-color: grey;
+  background-color: #AED3FF;
   color: #323D4A;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 16px;
@@ -17,7 +17,16 @@ h3{
 }
 
 p{
-	font-family: "Crimson Text"
+	font-family: "Crimson Text";
+	color: #576A7F;
+}
+
+a{
+	color: #9CBEE5;
+}
+
+img{
+	border-radius: 1.5rem;
 }
 
 .container{
@@ -73,7 +82,7 @@ header span{
 
 .jumbotron{
 	display: flex;
-	background-color: lightgrey;
+	background-color: #AED3FF;
 }
 
 .jumbotron.one{
@@ -93,6 +102,7 @@ header span{
 	max-width: 100%;
 	height: auto;
 	display: block;
+	border-radius: 1.5rem;
 }
 
 .side {
@@ -112,6 +122,7 @@ header span{
 button span{
 	font-size: 2rem;
 	margin: 0.5rem 0px;
+	color: #9CBEE5;
 }
 
 .side p{
@@ -124,6 +135,12 @@ button span{
 	width: 100%;
 	height: 4rem;
 	padding: 0.5rem 0;
+	background-color: rgba(87, 106, 127, 0.95);
+	border-radius: 1.5rem;
+}
+
+.jumbotron.two{
+	background-color: #9CBEE5
 }
 
 .hurt h1{
@@ -216,11 +233,16 @@ button span{
 .exhibit{
 	text-align: center;
 	padding: 2rem 0;
+	background-color: #9CBEE5;
 }
 
 video{
 	width: 100%;
 	height: auto;
+}
+
+.jumbotron.four{
+	background-color: #9CBEE5;
 }
 
 .jumbotron.four .container div{
@@ -238,7 +260,7 @@ video{
 footer{
 	display: flex;
 	align-items: center;
-	background-color: red;
+	background-color: #829FBF;
 	padding-left: 1.5rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
