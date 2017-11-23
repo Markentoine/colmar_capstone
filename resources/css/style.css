@@ -1,5 +1,5 @@
 html{
-  background-color: #AED3FF;
+  background-color: rgba(197, 60, 55, 0.95);
   color: #323D4A;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 16px;
@@ -9,11 +9,13 @@ html{
 h1{
 	font-size: 2.5rem;
 	font-weight: 800;
+	color: #2D5F73;
 }
 
 h3{
 	font-size: 2rem;
 	font-weight: thin;
+	color: #2D5F73;
 }
 
 p{
@@ -22,7 +24,8 @@ p{
 }
 
 a{
-	color: #9CBEE5;
+	color: #F2D1B3;
+	text-decoration: none;
 }
 
 img{
@@ -44,7 +47,7 @@ header{
 	position: fixed;
 	width: 100%;
 	height: 4rem;
-	background-color: rgba(87, 106, 127, 0.95);
+	background-color: rgba(197, 60, 55, 0.95);
 }
 
 nav{
@@ -72,17 +75,17 @@ header .container img {
 header h1{
 	font-size: 1rem;
 	font-weight: bold;
-	color: #9CBEE5;
+	color: #F2D1B3;
 }
 
 header span{
-	font-weight: thin;
+	font-weight: bold;
 }
 
 
 .jumbotron{
 	display: flex;
-	background-color: #AED3FF;
+	background-color: #F2D1B3;
 }
 
 .jumbotron.one{
@@ -122,7 +125,7 @@ header span{
 button span{
 	font-size: 2rem;
 	margin: 0.5rem 0px;
-	color: #9CBEE5;
+	color: #F2D1B3;
 }
 
 .side p{
@@ -135,12 +138,12 @@ button span{
 	width: 100%;
 	height: 4rem;
 	padding: 0.5rem 0;
-	background-color: rgba(87, 106, 127, 0.95);
+	background-color: rgba(197, 60, 55, 0.95);
 	border-radius: 1.5rem;
 }
 
 .jumbotron.two{
-	background-color: #9CBEE5
+	background-color: #F2B8A2
 }
 
 .hurt h1{
@@ -189,6 +192,9 @@ button span{
 }
 
 /*Courses part */
+.courses{
+	background-color: #F2D1B3;
+}
 
 .courses h1{
 	padding: 2rem 0;
@@ -233,7 +239,7 @@ button span{
 .exhibit{
 	text-align: center;
 	padding: 2rem 0;
-	background-color: #9CBEE5;
+	background-color: #C87971;
 }
 
 video{
@@ -242,7 +248,7 @@ video{
 }
 
 .jumbotron.four{
-	background-color: #9CBEE5;
+	background-color: #C87971;
 }
 
 .jumbotron.four .container div{
@@ -260,7 +266,7 @@ video{
 footer{
 	display: flex;
 	align-items: center;
-	background-color: #829FBF;
+	background-color: #538EA6;
 	padding-left: 1.5rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
