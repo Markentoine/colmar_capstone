@@ -7,13 +7,13 @@ html{
 
 
 h1{
-	font-size: 2.5rem;
+	font-size: 4rem;
 	font-weight: 800;
 	color: #2D5F73;
 }
 
 h3{
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: thin;
 	color: #2D5F73;
 }
@@ -35,10 +35,6 @@ img{
 .container{
 	height: auto;
 	overflow: hidden;
-}
-
-.infos{
-	margin: 1rem 0 1.5rem 1rem;
 }
 
 header{
@@ -97,8 +93,6 @@ header span{
 
 .jumbotron .container{
 	width: 60%;
-	height: auto;
-	overflow: hidden;
 	padding: 2rem 1.5rem;
 }
 
@@ -114,6 +108,7 @@ header span{
 	display: flex;
 	flex-direction: column;
 	width: 40%;
+	height: auto;
 	align-items: flex-start;
 	justify-content: center;
 	padding: 2rem 0;
@@ -144,6 +139,8 @@ button span{
 	border-radius: 1.5rem;
 }
 
+/* Second Jumbotron */
+
 .jumbotron.two{
 	background-color: #F2B8A2
 }
@@ -165,16 +162,16 @@ button span{
 
 .side.two{
 	justify-content: space-between;
-	align-items: flex-start;
-	width: 40%;
 }
 
 .infobox{
 	display: inline-flex;
     width: 95%;
-    align-items: center;
-    max-width: 95%; 
-    max-height: 30%;
+    align-items: flex-start;
+    min-width: 95%;
+    max-width: 95%;
+    height: auto;
+    min-height: 30%;
 	margin-bottom: 1rem;
 	margin-left: 1rem;
 	background-color: #F2D1B3;
@@ -182,12 +179,8 @@ button span{
 }
 
 .infobox .container{
-	width: 35%;
+	min-width: 35%;
 	max-width: 35%;
-	height: 100%;
-	max-height: 100%;
-	overflow: hidden;
-	padding: 0;
 }
 
 .infobox .container img{
@@ -197,10 +190,14 @@ button span{
 }
 
 .infobox .infos{
-	width: 60%;
-	height: 80%;
-	max-height: 80%;
-	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 50%;
+	min-width: 50%;
+	max-width: 50%;
+	height: 60%;
+	margin: 2rem 1rem;
 }
 
 .infobox p, a{
@@ -219,6 +216,8 @@ button span{
 }
 
 .a_course{
+	display: flex;
+	flex-direction: column;
 	background-color: #F2B8A2;
 	border-radius: 1.25rem;
 }
@@ -250,6 +249,10 @@ button span{
 
 .a_course img{
 	width: 100%
+}
+
+.a_course .infos{
+	padding: 1rem 1rem;
 }
 
 .infos h4, p{
@@ -286,9 +289,11 @@ video{
 	background-color: #F2B8A2;
 }
 
-.jumbotron.four .container div{
-	padding: 1.5rem 0 2rem 0;
+.jumbotron.four .infobox .container{
+	min-width: 28%;
+	max-width: 28%;
 }
+
 
 .jumbotron.four .container h3{
 	padding-bottom: 0.5rem;
