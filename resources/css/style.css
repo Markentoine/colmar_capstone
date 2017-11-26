@@ -80,6 +80,10 @@ header span{
 	color: #1F414F;
 }
 
+i{
+	transition: color 100ms ease-in-out;
+}
+
 i:hover{
 	color: rgb(255, 78, 71);
 }
@@ -141,7 +145,7 @@ button span{
 	padding: 0.5rem 0;
 	background-color: rgba(197, 60, 55, 0.95);
 	border-radius: 1.5rem;
-	transition: background-color 125ms ease-in-out;
+	transition: background-color 100ms ease-in-out;
 }
 
 button:hover{
@@ -212,6 +216,14 @@ button:hover{
 
 .infobox p, a{
 	font-size: 1.5rem;
+}
+
+.infobox a{
+	transition: color 100ms ease-in-out;
+}
+
+.infobox a:hover{
+  color: rgb(255, 78, 71);
 }
 
 /*Courses part */
