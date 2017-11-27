@@ -411,9 +411,19 @@ button:hover{
   .a_course{
     min-width: 100%;
     max-width: 100%;
-  	margin: 0 0 1rem 0rem;
-  	border: 1px solid red;
+  	margin: 0 0 1rem 0;
+
   }
+
+  .a_course:hover .infos p{
+  	display: block;
+  }
+
+  .a_course .infos p{
+  	transition: display 100ms ease-in-out;
+  }
+
+
 }
 /*Styling the Thesis part */
 
