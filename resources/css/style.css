@@ -5,6 +5,10 @@ html{
   font-size: 16px;
 }
 
+.mobile{
+	display: none;
+}
+
 @media only screen and (max-width: 1450px){
 	html{
 	  font-size: 12px;
@@ -144,8 +148,6 @@ i:hover{
 	i{
 		color: black;
 	}
-
-
 }
 
 
@@ -225,6 +227,14 @@ button:hover{
 		width: 95%;
 		align-items: center;
 	}
+
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
 }
 
 /* Second Jumbotron */
@@ -300,6 +310,23 @@ button:hover{
 
 .infobox a:hover{
   color: rgb(255, 78, 71);
+}
+
+@media only screen and (max-width: 740px){
+	#man{
+		display: none;
+	}
+
+	.infobox{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.infobox .container{
+		padding: 0;
+		max-width: 100%;
+		min-width: 100%;
+	}
 }
 
 /*Courses part */
