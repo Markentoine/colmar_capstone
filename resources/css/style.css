@@ -387,6 +387,34 @@ button:hover{
 	color: #1F414F;
 }
 
+@media only screen and (max-width: 740px){
+  .illustration{
+  	display: none;
+  }
+
+  .courses_display .infos h4, .courses_display .infos p {
+  	display: none;
+  }
+
+  .row{
+  	flex-direction: column;
+  }
+
+  .row.one{
+  	margin-bottom: 0;
+  }
+
+  .row.two{
+  	margin-top: 0;
+  }
+
+  .a_course{
+    min-width: 100%;
+    max-width: 100%;
+  	margin: 0 0 1rem 0rem;
+  	border: 1px solid red;
+  }
+}
 /*Styling the Thesis part */
 
 .exhibit{
