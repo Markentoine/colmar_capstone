@@ -43,8 +43,6 @@ html{
 }
 
 
-
-
 h1{
 	font-size: 4rem;
 	font-weight: 800;
@@ -88,7 +86,7 @@ header{
 nav{
 	display: flex;
 	margin-left: auto;
-	margin-right: 2rem;
+	margin-right: 0rem;
 }
 
 nav h2{
@@ -97,7 +95,7 @@ nav h2{
 
 header .container {
   width: auto;
-  height: 3rem;
+  height: 4rem;
   overflow: hidden;
 }
 
@@ -127,10 +125,27 @@ i:hover{
 	color: rgb(255, 78, 71);
 }
 
-@media only screen and (max-width: 480px){
-	h1, span{
+@media only screen and (max-width: 740px){
+	html{
+		font-size: 6px;
+	}
+	header h1, header span, #companies{
 		display: none;
 	}
+
+	nav{
+		margin: 0 0 0 2rem;
+	}
+
+	header{
+		justify-content: center;
+	}
+
+	i{
+		color: black;
+	}
+
+
 }
 
 
