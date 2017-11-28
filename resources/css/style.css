@@ -137,7 +137,7 @@ i:hover{
 		display: none;
 	}
 
-	nav{
+	header nav{
 		margin: 0 0 0 2rem;
 	}
 
@@ -221,6 +221,7 @@ button:hover{
 
 	.jumbotron .container{
 		width: 97%;
+		padding: 2rem 1rem;
 	}
 
 	.side{
@@ -326,6 +327,10 @@ button:hover{
 		padding: 0;
 		max-width: 100%;
 		min-width: 100%;
+	}
+
+	.jumbotron.two{
+		align-items: center;
 	}
 }
 
@@ -467,7 +472,7 @@ video{
 
 @media only screen and (max-width: 740px){
 	.side.four{
-		display: none;
+	    display: none;
 	}
 }
 
@@ -482,4 +487,14 @@ footer{
 
 footer p{
 	color: #F2D1B3;
+}
+
+@media only screen and (max-width: 480px){
+	footer nav{
+	    display: none;
+	}
+
+	footer{
+        justify-content: center;
+	}
 }
