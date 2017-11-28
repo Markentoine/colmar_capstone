@@ -9,6 +9,8 @@ html{
 	display: none;
 }
 
+/* Improve readability : font resized; font size can increase when too small */
+
 @media only screen and (max-width: 1450px){
 	html{
 	  font-size: 12px;
@@ -28,28 +30,19 @@ html{
 	  font-size: 2.5rem;
 	}
 
-	.infos p:hover{
+	.infos p:hover, .side p:hover{
       font-size: 2.5rem;
 	}
 
-	.infos p{
+	.infos p, .side p{
 	  transition: font-size 75ms ease-in-out;
 	}
-
-	.side p:hover{
-	  font-size: 2.5rem;
-	}
-
-	.side p{
-      transition: font-size 75ms ease-in-out;
-	}
-
 }
 
 
 h1{
 	font-size: 4rem;
-	font-weight: 800;
+	font-weight: bold;
 	color: #2D5F73;
 }
 
@@ -90,7 +83,6 @@ header{
 nav{
 	display: flex;
 	margin-left: auto;
-	margin-right: 0rem;
 }
 
 nav h2{
@@ -100,7 +92,6 @@ nav h2{
 header .container {
   width: auto;
   height: 4rem;
-  overflow: hidden;
 }
 
 header .container img {
@@ -133,6 +124,7 @@ i:hover{
 	html{
 		font-size: 10px;
 	}
+
 	header h1, header span, #companies{
 		display: none;
 	}
@@ -198,7 +190,6 @@ button span{
 .side p{
 	font-size: 2rem;
 	padding: 2rem 0;
-	font-family: 'Crimson Text'
 }
 
 .side button{
@@ -295,7 +286,6 @@ button:hover{
 	flex-shrink: 2;
 	overflow: hidden;
 	width: 50%;
-
 	max-width: 50%;
 	height: 60%;
 	margin: 2rem 1rem;
@@ -310,7 +300,7 @@ button:hover{
 }
 
 .infobox a:hover{
-  color: rgb(255, 78, 71);
+    color: rgb(255, 78, 71);
 }
 
 @media only screen and (max-width: 740px){
@@ -335,6 +325,7 @@ button:hover{
 }
 
 /*Courses part */
+
 .courses{
 	background-color: #F2D1B3;
 	padding-bottom: 2rem;
@@ -427,10 +418,9 @@ button:hover{
   .a_course .infos p{
   	transition: display 100ms ease-in-out;
   }
-
-
 }
-/*Styling the Thesis part */
+
+/*Thesis part */
 
 .exhibit{
 	text-align: center;
@@ -460,7 +450,6 @@ video{
 	min-width: 28%;
 	max-width: 28%;
 }
-
 
 .jumbotron.four .container h3{
 	padding-bottom: 0.5rem;
